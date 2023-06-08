@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background: url(https://t4.ftcdn.net/jpg/01/80/26/03/360_F_180260315_gREfK8CvdnJN7mrUcopHsYvOdJs5qh0N.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 100vh;
+    position: relative;
+    min-height: 710px;
+}
+
+.title{
+    font-size: 50px;
+    margin: 0;
+    color: rgb(83, 29, 29);
+    position: absolute;
+    top: 10%;
+}
+
+.recipe-list{
+    background-color: tan;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    gap: 50px;
+    margin: 0;
+    border: 2px solid rgb(152, 95, 95);
+    border-radius: 5px;
+    position: fixed;
+}
+
+.recipe{
+    list-style: none;
+}
+
+.recipe a{
+    text-decoration: none;
+    color: black;
+}
+
+.recipe a:hover{
+    color: white;
+}
+
+@media (max-width: 700px){
+    .title{
+        font-size: 35px;
+    }
+    .recipe-list{
+        width: 30%;
+        font-size: 25px;
+        padding: 50px;
+    }
+}
