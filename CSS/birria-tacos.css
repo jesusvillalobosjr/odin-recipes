@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background: url(https://t4.ftcdn.net/jpg/01/80/26/03/360_F_180260315_gREfK8CvdnJN7mrUcopHsYvOdJs5qh0N.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+}
+
+main{
+    padding-left: 2rem;
+}
+
+.title,.ingredients,.steps{
+    color: rgb(83, 29, 29);
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.ingredients,.steps{
+    font-size: 30px;
+}
+
+.birria-image-caption{
+    margin: 0;
+}
+
+.birria-image-caption img{
+    border-radius: 50px;
+}
+
+.ingredient-list,.step-list{
+    background-color: tan;
+}
+
+.ingredient-list{
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.step-list{
+    width: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.ingredient,.step{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ingredient:last-of-type,.step:last-of-type{
+    margin-bottom: 0;
+}
